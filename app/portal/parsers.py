@@ -265,3 +265,4 @@ def process_energy_readings(raw_readings: list[dict[str, Any]]) -> tuple[list[di
         del entry["_dt"]
 
     return parsed_entries, interval
+

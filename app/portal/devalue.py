@@ -93,3 +93,4 @@ def decode_sveltekit_page_data(payload: dict[str, Any] | list[Any], node_index: 
                 return res
 
     raise ValueError("Could not find page data node in SvelteKit response")
+

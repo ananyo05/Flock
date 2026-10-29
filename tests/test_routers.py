@@ -270,3 +270,4 @@ async def test_router_portal_unavailable_502(async_client: AsyncClient):
         assert resp.status_code == 502
         data = resp.json()
         assert data["error"]["code"] == "BAD_GATEWAY"
+

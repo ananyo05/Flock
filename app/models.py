@@ -171,3 +171,4 @@ class RefreshResponse(BaseModel):
     meters_count: int = Field(..., description="Count of meters loaded into cache", examples=[403])
     dts_count: int = Field(..., description="Count of distribution transformers loaded", examples=[40])
     cleared_cache_entries: int = Field(..., description="Count of previously cached entries evicted", examples=[12])
+

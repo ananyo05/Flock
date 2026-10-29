@@ -216,3 +216,4 @@ async def test_hmac_signed_export_request(mock_settings):
         assert sig == expected_sig
 
     await client.aclose()
+

@@ -55,3 +55,4 @@ class ConsumptionService:
             ttl=float(self.settings.consumption_cache_ttl_seconds),
         )
         return response, 0.0
+

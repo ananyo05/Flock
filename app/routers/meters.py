@@ -106,3 +106,4 @@ async def get_meter_consumption(
     )
     response.headers["X-Cache-Age"] = f"{age:.1f}"
     return result
+

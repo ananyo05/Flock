@@ -383,3 +383,4 @@ The `/meters/nearby` endpoint uses a two-phase spatial search:
 
 ### What I'd Criticise
 <!-- TODO: Add personal reflection offering critical evaluation of the legacy portal architecture or API tradeoffs -->
+

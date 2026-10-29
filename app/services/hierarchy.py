@@ -261,3 +261,4 @@ class HierarchyService:
             tree=tree_nodes,
             data_quality=issues,
         )
+

@@ -22,3 +22,4 @@ async def get_hierarchy(
     result, age = await hierarchy_service.get_hierarchy_tree()
     response.headers["X-Cache-Age"] = f"{age:.1f}"
     return result
+

@@ -153,3 +153,4 @@ def test_process_energy_readings_with_anomaly_and_daily():
 
     assert readings[2]["consumption_kwh"] == 7.0
     assert readings[2]["anomaly"] is False
+

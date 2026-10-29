@@ -284,3 +284,4 @@ async def test_hierarchy_service(
         zone_codes = [z.code for z in tree_res.tree]
         assert "Z-01" in zone_codes
         assert "Z-02" in zone_codes
+

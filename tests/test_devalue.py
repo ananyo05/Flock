@@ -96,3 +96,4 @@ def test_unflatten_invalid_index():
 
     with pytest.raises(ValueError):
         unflatten([{"a": -99}])
+

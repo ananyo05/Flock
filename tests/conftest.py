@@ -13,3 +13,4 @@ def samples_dir() -> Path:
 @pytest.fixture
 def detail_samples_dir(samples_dir: Path) -> Path:
     return samples_dir / "detail"
+
